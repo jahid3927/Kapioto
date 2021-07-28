@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+/* header section start here */
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: #0a1c58;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.custome-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-fluid{
+width: 100% !important;
+padding-left: 0px !important;
+}
+.navbar-nav a{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #c8c8c8 !important;
+    transition: 0.3s;
+    margin-left: 12px;
+}
+
+.navbar-nav a:hover{
+    color: white !important;
+}
+.navbar-nav li:first-child a{
+    color: white !important;
+}
+
+.social i{
+    transition: 0.3s;
+}
+.social .fa-facebook-f:hover{
+    color:  #3b5998;
+}
+.social .fa-twitter:hover{
+    color:  #00acee;
+}
+.social .fa-instagram-square:hover{
+    color:  #3f729b;
+}
+
+
+.nav-link .phone{
+    margin-right: 3px;
+}
+/* header section end here */
+
+
+/* banner section start here */
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url(images/banner-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    z-index: -2;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c2c2c;
+    opacity: 0.9;
+    z-index: -1;
+}
+.row{
+
+}
+
+.banner .title{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.banner h1{
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.banner .des{
+    width: 80%;
+    font-size: 15px;
+    margin-bottom:30px;
+
+}
+.banner a{
+    color: white;
+    width: 130px !important;
+    padding: 10px 0px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    z-index: 2;
+}
+
+.banner a:hover{
+    background: #b02727 !important;
+    border: 1px solid #b02727 !important;
+
+} 
+.banner .btn-1{
+    background: #b02727;
+    border: 1px solid #b02727;
+    margin-right: 20px;
+
+}
+/* banner section end here */
+
+
+/* services section start here */
+
+#service{
+padding: 50px 0px;
+}
+
+#service .title{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px ;
+    font-weight: 500;
+    width: 45%;
+    margin: auto;
+    /* margin-bottom: 50px; */
+
+}
+
+#service .title h4{
+    line-height: 40px;
+    text-align: center;
+}
+
+#service .col-md-4{
+    padding: 30px 50px ;
+    
+}
+
+#service .icon{
+    padding-bottom: 25px;
+
+}
+#service h5{
+    padding: 10px 0px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px ;
+    font-weight: 600;
+
+
+}
+#service p{
+    font-size: 15px;
+    color: #4f4f4f;
+    line-height: 25px;
+
+}
+#service .circle{
+    width: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#service .circle .circle01{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0a1c58;
+    opacity: 0.3;
+
+}
+
+#service .circle .circle-02{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+}
+/* services section end here */
+
+
+/* mission section start here */
+
+
+.row{
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.mission{
+ width: 100%;
+}
+.mission .left{
+    width: 50%;
+    margin:0 !important;
+    padding: 0 !important;
+
+}
+.mission .left img{
+    margin:0 !important;
+    padding: 0 !important;
+
+}
+.mission .right{
+    width: 50%;
+    background: #0a1c58;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 100px;
+}
+
+.mission .content h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 20px;
+
+}
+
+.mission .content p{
+    font-size: 15px;
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 30px;
+
+}
+/* mission section end here */
+
+
+/* vision section start here */
+
+.vision{
+
+}
+.vision .left{
+    background: #0a1c58;
+}
+.vision .middle{
+    background: #b02727;;
+}
+.vision .right{
+    background: #0f2673;;
+}
+
+.vision .content{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px;
+}
+.vision h4{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+}
+.vision p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+/* vision section end here */
+
+
+/* about section start here */
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.about .title h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 20px;
+
+}
+
+.about .row .content{
+
+}
+.about .title p{
+    width: 50%;
+    margin: auto;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4f4f4f;
+    line-height: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+
+}
+
+.about .s-box .icon{
+    width: 80px;
+
+}
+.about .s-box .icon img{
+
+}
+.about .s-box .des h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 38px;
+    color: #0a1c58;
+
+}
+
+.about .s-box .des p{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+/* about section end here */
+
+
+/* work with us start here */
+.work-with-us{
+    width: 100%;
+    height: 200px;
+    background: #0a1c58;
+}
+
+.work-with-us .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 200px;
+
+
+}
+.work-with-us h5{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.work-with-us p{
+    font-size: 15px;
+
+}
+
+.work-with-us a button{
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: right;
+    border: none;
+    background-color: #b02727;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.work-with-us a button:hover{
+    background-color: #ddd;
+    color: #0a1c58;;
+
+}
+
+/* work with us end here */
+
+/* industries section start here */
+
+.industries{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.industries .left h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.industries .left h6{
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    width: 80%;
+    line-height: 30px;
+    margin:20px 0px;
+}
+
+.industries .left p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #4f4f4f;
+    margin-bottom: 15px;
+}
+.industries .left i{
+    color: #b02727;
+    margin-right: 15px;
+}
+
+.industries .service{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.industries .service .web-development{
+    width: 48%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+.industries .service .web-development .top{
+    background: #b02727;
+    width: 100%;
+    height: 220px;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 20px;
+
+}
+.industries .service .web-development .bottom{
+    width: 100%;
+    height: 60px;
+    background: #14245a;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+
+
+}
+
+.industries .service .web-development .bottom img{
+    width: 70%;
+    height: auto;
+    margin-right: 20px;
+}
+.industries .service .web-development .bottom h5{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.industries .service .web-design .bottom{
+    background: #14245a;
+}
+
+.industries .service .web-design .top{
+    background: #b02727;
+
+}
+/* industries section end here */
+
+
+/* more logos section start here */
+
+.more-logo{
+    width: 100%;
+    padding: 100px 0px;
+    background: #f6f6f6;
+}
+.more-logo .row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.more-logo .row img{
+    width: 12%;
+    height: auto;
+}
+
+/* more logos section end here */
+
+
+/* profile section start here */
+
+.profile{
+    padding: 100px 0px;
+    background: #2c2c2c;
+    color: white;
+
+}
+.profile .row{
+    justify-content: space-between;
+
+}
+.profile .col-md-6{
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+.profile .image{
+    width: 300px;
+    height: 130px;
+    border-radius: 50%;
+    background:url(images/john.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+.profile .image img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.profile .desc h5{
+
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px !important;
+}
+.profile .p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.profile .row .right .image {
+    background: url(images/emma.jpg);
+    width: 300px;
+    height: 130px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/* profile section end here */
+
+
+/* price sesction start here */
+.price{
+    margin: 100px 0px;
+
+}
+.price h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 38px;
+    
+
+}
+
+.price .row .col-md-4{
+    box-shadow: 0px 0px 7px #e4e4e4;
+    padding: 0px;
+    margin: 0px 20px;
+    width: 30%;
+    transition:0.3s;
+}
+
+.price .row .col-md-4:hover{
+    transform:scale(1.1);
+    z-index:2;
+}
+.price .row .col-md-4:nth-child(2){
+    transform:scale(1.1);
+    z-index:2;
+}
+.price .row .col-md-4:nth-child(2) .title{
+    background: #14245a;
+    color: white;
+}
+
+.price .row .col-md-4:hover .title{
+    background: #14245a;
+    color: white;
+}
+.price .price-title{
+    font-size: 15px;
+    font-weight: 500;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 50px;
+
+}
+.price .title{
+    background: #e4e4e4;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7e7e7e;
+
+}
+.price .title h4{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.price .desc{
+    text-align: center;
+}
+.price .desc h3{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #121212;
+
+}
+.price .desc span{
+    font-size: 24px;
+
+}
+.price .desc h6{
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 20px;
+
+
+}
+.price .desc p{
+    color: #4f4f4f;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.price .desc button{
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    background: #b02727;
+    color: white;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    transition: 00.3s;
+
+}
+
+.price .desc button:hover{
+    background: rgba(3, 3, 3, 0.418);
+}
+/* price sesction end here */
+
+
+/* from section start here */
+
+.from{
+    background: #0a1c58;
+}
+.from .row{
+    padding: 100px 0px !important;
+
+}
+.from h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.from p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    width: 80%;
+}
+
+#categories, .from input{
+    width: 100%;
+    padding: 14px 10px;
+    background: #304074;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 30px;
+}
+.from ::placeholder{
+    color: white;
+    padding: 10px 5px;
+
+}
+
+.from button{
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px 40px;
+    margin-top: -3px;
+    background: none;
+
+
+}
+.from button:hover{
+    border: none;
+    background-color: #304074;
+    padding: 14px 42px;
+}
+/* from section start here */
+
+
+/* footer section start here */
+
+footer{
+background: #101010;
+}
+
+.ftop{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.ftop h4{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+.ftop p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #8e8e8e;
+    margin-bottom: 5px;
+
+}
+
+.ftop .left{
+    margin-right: 50px;
+    float: left;;
+}
+
+.under-line{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #333;
+}
+footer i{
+    background: #101010;
+    position: absolute;
+    content: '';
+    left: 49%;
+    top: -20px;
+    border: 1px solid #333;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: #878787;
+}
+
+.fright{
+    color: #838383;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* footer section end here */
